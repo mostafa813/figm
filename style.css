@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.phone{
+font-family: 'Hind Siliguri';
+font-weight: 400;
+size: 14px;
+top: 16px;
+line-height: 23px;
+margin-top: 16px;
+margin-left: 113px;
+}
+.Support{ 
+font-family: 'Hind Siliguri';
+font-weight: 400;
+size: 14px;
+top: 16px;
+line-height: 23px;
+margin-top: 16px;
+margin-left: 254px;
+}
+.free{
+font-family: 'Hind Siliguri';
+font-weight: 600;
+size: 18px;
+margin-top: 13px;
+margin-left: 608px;
+color: #9E3040;
+}
+.address{
+font-family: 'Hind Siliguri';
+font-weight: 400;
+size: 14px;
+top: 16px;
+line-height: 23px;
+margin-top: 16px;
+margin-left: 1034px;
+}
+.head{
+    background-color: #F6F6F6;
+}
