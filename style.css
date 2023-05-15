@@ -1,42 +1,40 @@
 * {
   margin: 0px;
   padding: 0px;
+  font-family: "Hind Siliguri";
 }
+
+header {
+  background-color: #f6f6f6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 56px;
+  padding: 0 80px;
+  position: relative;
+}
+
+.contact-info {
+  display: flex;
+}
+
+.contact-info > div {
+  margin: 0 63px;
+}
+
+.Support,
+.address,
 .phone {
-  font-family: "Hind Siliguri";
+  display: flex;
   font-weight: 400;
   size: 14px;
-  top: 16px;
-  line-height: 23px;
-  margin-top: 16px;
-  margin-left: 113px;
 }
-.Support {
-  font-family: "Hind Siliguri";
-  font-weight: 400;
-  size: 14px;
-  top: 16px;
-  line-height: 23px;
-  margin-top: 16px;
-  margin-left: 254px;
-}
-.free {
-  font-family: "Hind Siliguri";
+
+.title {
   font-weight: 600;
   size: 18px;
-  margin-top: 13px;
-  margin-left: 608px;
   color: #9e3040;
-}
-.address {
-  font-family: "Hind Siliguri";
-  font-weight: 400;
-  size: 14px;
-  top: 16px;
-  line-height: 23px;
-  margin-top: 16px;
-  margin-left: 1034px;
-}
-.head {
-  background-color: #f6f6f6;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
