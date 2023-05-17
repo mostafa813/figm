@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap");
+
 * {
   margin: 0px;
   padding: 0px;
@@ -38,74 +40,75 @@ header {
   left: 50%;
   transform: translateX(-50%);
 }
-.brand-name{
-font-weight: 600;
-font-size: 30px;
-color: #9E3040;
+.brand-name {
+  font-weight: 600;
+  font-size: 30px;
+  color: #9e3040;
 }
-.nav-text{
-font-weight: 400;
-font-size: 18px;
-color: #686868;
+.nav-text {
+  font-weight: 400;
+  font-size: 18px;
+  color: #686868;
 }
-.home-butten{
-font-weight: 500;
-font-size: 18px;
+.home-butten {
+  font-weight: 500;
+  font-size: 18px;
 }
-.sbutten{
-background-color: #9E3040;
-box-shadow: 0px 0px 10px rgba(158, 48, 64, 0.17);
-border-radius: 5px;
-width: 126px;
-height: 49px;
-font-weight: 600;
-font-size: 18px;
-color: #fff;
+.sbutten {
+  background-color: #9e3040;
+  box-shadow: 0px 0px 10px rgba(158, 48, 64, 0.17);
+  border-radius: 5px;
+  width: 126px;
+  height: 49px;
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
 }
-nav{
-display: flex;
-justify-content: space-between;
-flex-direction: row;
-padding: 0 80px;
-align-items: center;
+nav {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 0 80px;
+  align-items: center;
 }
-.butten-nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-grow: 0.3;
+.butten-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-grow: 0.3;
 }
-.nav-logo{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 7px;
+.nav-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 7px;
 }
-.main-pic{
-background-image: url(Untitled-1.png);
-background-repeat: no-repeat;
-background-size: cover;
-height: 950px;
-
+.main-pic {
+  background-image: url(Untitled-1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 950px;
+  
 }
-.beau-text{
-padding: 0 80px;
-font-weight: 600;
-font-size: 64px;
-color: #fff;
+.beau-text {
+  padding: 0 80px;
+  font-weight: 600;
+  font-size: 64px;
+  color: #fff;
 }
-.over-text{
-padding: 0 80px;
-font-weight: 400;
-font-size: 24px;
-color: #fff;
+.over-text {
+  padding: 0 80px;
+  font-weight: 400;
+  font-size: 24px;
+  color: #fff;
 }
-.shop-now{
-font-weight: 600;
-font-size: 18px;
-color: #9E3040;
-width: 92px;
-height: 29px;
-padding: 0 80px;
-
+.shop-now {
+  font-weight: 600;
+  font-size: 18px;
+  color: #9e3040;
+  width: 187px;
+  height: 49px;
+  margin: 0 80px;
+}
+.beau-text .over-text .shop-now {
 }
