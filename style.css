@@ -29,8 +29,9 @@ header {
 .phone {
   display: flex;
   font-weight: 400;
-  size: 14px;
+  font-size: 14px;
 }
+
 
 .title {
   font-weight: 600;
@@ -170,6 +171,10 @@ font-size: 16px;
 .first{
   background: #F3F5F6;
   border-radius: 10px;
+  width: 329px;
+  height: 418px;
+  text-align: center;
+  padding: 14px 0;
 }
 .ad-butten{
   background: #0c0c0c;
@@ -180,8 +185,16 @@ font-size: 16px;
   font-family: 'Hind Siliguri';
   font-size: 16px;
 }
-section{
+.sec2{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-around;
+  margin-top: 70px;
+}
+article{
+  display: flex;
+  flex-direction: row;
+  flex: 1 1 ;
 }
