@@ -32,7 +32,6 @@ header {
   font-size: 14px;
 }
 
-
 .title {
   font-weight: 600;
   size: 18px;
@@ -86,12 +85,12 @@ nav {
   align-items: center;
   gap: 7px;
 }
-.log{
-background: #FFFFFF;
-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.09);
-border-radius: 5px;
-margin: 10px;
-padding: 10px 10px 5px 10px;
+.log {
+  background: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.09);
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px 10px 5px 10px;
 }
 .main-pic {
   display: flex;
@@ -101,7 +100,6 @@ padding: 10px 10px 5px 10px;
   background-repeat: no-repeat;
   background-size: cover;
   height: 950px;
-  
 }
 .beau-text {
   padding: 0 80px;
@@ -123,7 +121,6 @@ padding: 10px 10px 5px 10px;
   width: 187px;
   height: 49px;
   margin: 0 80px;
-  
 }
 .shop-now:hover {
   cursor: pointer;
@@ -131,27 +128,27 @@ padding: 10px 10px 5px 10px;
 .sbutten:hover {
   cursor: pointer;
 }
-.log:hover{
+.log:hover {
   cursor: pointer;
 }
-.butten-nav:hover{
+.butten-nav:hover {
   cursor: pointer;
 }
-.benefit{
+.benefit {
   display: flex;
   justify-content: space-around;
   margin: 70px 260px;
 }
-.Featured-Product{
+.Featured-Product {
   font-weight: 600;
   font-size: 36px;
   text-align: center;
 }
-.Explore-More{
+.Explore-More {
   font-weight: 600;
   font-size: 58px;
-  color: #FFFFFF;
-  background-image:url(image\ 14.png);
+  color: #ffffff;
+  background-image: url(image\ 14.png);
   width: 548px;
   height: 709px;
   border: #fff;
@@ -162,39 +159,40 @@ padding: 10px 10px 5px 10px;
   margin-left: 70px;
   padding-top: 195px;
 }
-.pr-text{
-  font-family: 'Open Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
+.pr-text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
 }
-.first{
-  background: #F3F5F6;
+.first {
+  background: #f3f5f6;
   border-radius: 10px;
   width: 329px;
   height: 418px;
   text-align: center;
   padding: 14px 0;
 }
-.ad-butten{
+.ad-butten {
   background: #0c0c0c;
   border-radius: 5px;
   color: #fff;
   width: 137px;
   height: 42px;
-  font-family: 'Hind Siliguri';
+  font-family: "Hind Siliguri";
   font-size: 16px;
 }
-.sec2{
+.sec2 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-content: space-around;
+  width: 70%;
   justify-content: space-around;
   margin-top: 70px;
 }
-article{
+article {
   display: flex;
   flex-direction: row;
-  flex: 1 1 ;
+  flex: 1 1;
 }
