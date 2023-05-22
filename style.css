@@ -134,6 +134,14 @@ nav {
 .butten-nav:hover {
   cursor: pointer;
 }
+.outMax {
+  display: flex;
+  justify-content: center;
+}
+.max {
+  width: 1400px;
+  padding: 0 80px;
+}
 .benefit {
   display: flex;
   justify-content: space-around;
@@ -196,42 +204,90 @@ article {
   flex-direction: row;
   flex: 1 1;
 }
-.Organic{
-  background: #F3F5F6;
+.SHOW-MORE-btn {
+  font-weight: 600;
+  font-size: 18px;
+  width: 162px;
+  height: 49px;
+  background: #9e3040;
+  box-shadow: 0px 0px 10px rgba(158, 48, 64, 0.17);
+  border-radius: 5px;
+  color: #ffffff;
+  margin-top: 90px;
+}
+.Organic {
+  background: #f3f5f6;
   border-radius: 30px;
   padding: 76px 30px 40px 30px;
   align-self: center;
+  width: 35%;
 }
-.org-head{
+.org-head {
   font-weight: 700;
   font-size: 36px;
-  color: #9E3040;
+  color: #9e3040;
 }
-.org-text{
-  font-family: 'Open Sans';
+.org-text {
+  font-family: "Open Sans";
   font-weight: 400;
   font-size: 17px;
   line-height: 40px;
-
-
 }
-.org-butten{
+.org-butten {
   background: #232323;
   box-shadow: 0px 0px 10px rgba(35, 35, 35, 0.17);
   border-radius: 5px;
   font-weight: 600;
   font-size: 18px;
-  color: #FFFFFF;
+  color: #ffffff;
   width: 187px;
   height: 49px;
   margin-top: 37px;
 }
-.org-img{
+
+.org-img {
   border-radius: 30px;
 }
-.article2{
+.article2 {
   display: flex;
   flex-direction: row;
-  margin: 130px 80px 0 80px;
-
+  margin: 100px 0 0 0;
+  justify-content: space-between;
+}
+.SHOW-MORE-btn:hover {
+  cursor: pointer;
+}
+.Trending {
+  font-weight: 600;
+  font-size: 36px;
+  color: #232323;
+  margin-top: 50px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+.Trending-Product {
+  display: flex;
+  justify-content: space-between;
+}
+.second {
+  box-shadow: 0px 0px 19px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  width: 410px;
+}
+.second-img {
+  border-radius: 10px;
+}
+.second-head {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 39px;
+  color: #9e3040;
+  padding: 16px 0 13px 18px;
+}
+.second-text {
+  font-weight: 400;
+  font-size: 17px;
+  color: #303030;
+  line-height: 29px;
+  padding-left: 18px;
 }
