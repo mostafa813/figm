@@ -177,6 +177,8 @@ nav {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
+  text-align: left;
+  padding-left:5% ;
 }
 .first {
   background: #f3f5f6;
@@ -185,6 +187,15 @@ nav {
   height: 418px;
   text-align: center;
   padding: 14px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.price{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 15%;
 }
 .ad-butten {
   background: #0c0c0c;
@@ -194,6 +205,9 @@ nav {
   height: 42px;
   font-family: "Hind Siliguri";
   font-size: 16px;
+}
+.ad-butten:hover{
+  cursor: pointer;
 }
 .sec2 {
   display: flex;
@@ -266,8 +280,8 @@ article {
   font-weight: 600;
   font-size: 36px;
   color: #232323;
-  margin-top: 50px;
-  margin-bottom: 25px;
+  margin-top: 35px;
+  margin-bottom: 35px;
   text-align: center;
 }
 .Trending-Product {
@@ -349,7 +363,7 @@ article {
   font-style: normal;
   font-weight: 300;
   font-size: 17px;
-  line-height: 23px;
+  line-height: 27px;
   text-align: center;
   color: #303030;
   margin-bottom: 21px;
@@ -357,6 +371,7 @@ article {
 .email {
   display: flex;
   justify-content: center;
+  margin-bottom: 80px;
 }
 .email-btn {
   box-shadow: 0px 0px 10px rgba(158, 48, 64, 0.17);
@@ -377,4 +392,29 @@ article {
   line-height: 23px;
   color: #656565;
   padding-left: 23px;
+}
+.email-btn:hover{
+  cursor: pointer;
+}
+footer{
+  display: flex;
+  background: #F3F5F6;
+  justify-content: space-between;
+  padding: 30px 80px;
+}
+.footer-head{
+  color: #232323;
+  font-weight: 600;
+  font-size: 30px;
+}
+.footer-text{
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 17px;  
+  color: #303030;
+}
+.footer-parts{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
