@@ -33,7 +33,11 @@ header {
   font-weight: 400;
   font-size: 14px;
 }
-
+.phone-logo,
+.mail-logo,
+.location-logo{
+  margin-right: 14px;
+}
 .title {
   font-weight: 600;
   size: 18px;
@@ -144,7 +148,7 @@ nav {
 }
 
 .main-content {
-  max-width: 1280px;
+  max-width: 1300px;
   padding: 0 80px;
 }
 .benefit {
@@ -156,6 +160,7 @@ nav {
   font-weight: 600;
   font-size: 36px;
   text-align: center;
+  margin-top: 80px;
 }
 .Explore-More {
   font-weight: 600;
@@ -232,7 +237,7 @@ article {
   box-shadow: 0px 0px 10px rgba(158, 48, 64, 0.17);
   border-radius: 5px;
   color: #ffffff;
-  margin-top: 60px;
+  margin-top: 40px;
 }
 .Organic {
   background: #f3f5f6;
@@ -280,8 +285,8 @@ article {
   font-weight: 600;
   font-size: 36px;
   color: #232323;
-  margin-top: 35px;
-  margin-bottom: 35px;
+  margin-top: 60px;
+  margin-bottom: 23px;
   text-align: center;
 }
 .Trending-Product {
@@ -412,6 +417,13 @@ footer{
   font-weight: 400;
   font-size: 17px;  
   color: #303030;
+}
+.footer-text2{
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 17px;  
+  color: #303030;
+  display: flex;
 }
 .footer-parts{
   display: flex;
