@@ -32,10 +32,13 @@ header {
   display: flex;
   font-weight: 400;
   font-size: 14px;
+  align-items: center;
+  justify-content: space-between;
 }
+
 .phone-logo,
 .mail-logo,
-.location-logo{
+.location-logo {
   margin-right: 14px;
 }
 .title {
@@ -69,6 +72,7 @@ header {
   font-weight: 600;
   font-size: 18px;
   color: #fff;
+  border: 0;
 }
 nav {
   display: flex;
@@ -177,13 +181,16 @@ nav {
   margin-left: 70px;
   padding-top: 195px;
 }
+.Explore-More:hover {
+  cursor: pointer;
+}
 .pr-text {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   text-align: left;
-  padding-left:5% ;
+  padding-left: 5%;
 }
 .first {
   background: #f3f5f6;
@@ -196,7 +203,7 @@ nav {
   flex-direction: column;
   justify-content: space-between;
 }
-.price{
+.price {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -210,8 +217,9 @@ nav {
   height: 42px;
   font-family: "Hind Siliguri";
   font-size: 16px;
+  border: 0;
 }
-.ad-butten:hover{
+.ad-butten:hover {
   cursor: pointer;
 }
 .sec2 {
@@ -238,6 +246,7 @@ article {
   border-radius: 5px;
   color: #ffffff;
   margin-top: 40px;
+  border: 0;
 }
 .Organic {
   background: #f3f5f6;
@@ -267,6 +276,7 @@ article {
   width: 187px;
   height: 49px;
   margin-top: 37px;
+  border: 0;
 }
 
 .org-img {
@@ -314,6 +324,7 @@ article {
   color: #303030;
   line-height: 29px;
   padding-left: 18px;
+  padding-bottom: 2rem;
 }
 .big-red {
   background-color: #9e3040;
@@ -345,23 +356,32 @@ article {
   align-self: flex-end;
 }
 .Gallery {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
 }
-.Gallery1 {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+.item:nth-child(1) {
+  grid-row: 1;
+  grid-column: 1;
 }
-.Gallery2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+
+.item:nth-child(2) {
+  grid-row: 2;
+  grid-column: 1;
 }
-.Gallery3 {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+
+.item:nth-child(3) {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column: 2;
+}
+.item:nth-child(4) {
+  grid-row: 1;
+  grid-column: 3;
+}
+.item:nth-child(5) {
+  grid-row: 2;
+  grid-column: 3;
 }
 .sub-text {
   font-family: "Open Sans";
@@ -385,6 +405,7 @@ article {
   height: 49px;
   background: #9e3040;
   color: #fff;
+  border: 0;
 }
 .email-text {
   border: 1px solid rgba(158, 48, 64, 0.3);
@@ -398,34 +419,34 @@ article {
   color: #656565;
   padding-left: 23px;
 }
-.email-btn:hover{
+.email-btn:hover {
   cursor: pointer;
 }
-footer{
+footer {
   display: flex;
-  background: #F3F5F6;
+  background: #f3f5f6;
   justify-content: space-between;
   padding: 30px 80px;
 }
-.footer-head{
+.footer-head {
   color: #232323;
   font-weight: 600;
   font-size: 30px;
 }
-.footer-text{
-  font-family: 'Open Sans';
+.footer-text {
+  font-family: "Open Sans";
   font-weight: 400;
-  font-size: 17px;  
+  font-size: 17px;
   color: #303030;
 }
-.footer-text2{
-  font-family: 'Open Sans';
+.footer-text2 {
+  font-family: "Open Sans";
   font-weight: 400;
-  font-size: 17px;  
+  font-size: 17px;
   color: #303030;
   display: flex;
 }
-.footer-parts{
+.footer-parts {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
