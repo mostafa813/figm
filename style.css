@@ -66,7 +66,7 @@ header {
   left: 0;
   background-color: #fff;
   border-radius: 8px;
-  opacity: 0;
+  display: none;
   padding-top: 10px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
   transition: all ease-in-out 0.2s;
@@ -87,7 +87,7 @@ header {
 }
 
 #dropdown:hover > .dropdown-content {
-  opacity: 1;
+  display: block;
 }
 
 .home-butten {
@@ -105,6 +105,7 @@ header {
   color: #fff;
   border: 0;
   transition: 0.3s;
+  margin-left: 30px;
 }
 nav {
   display: flex;
@@ -202,11 +203,21 @@ nav {
   max-width: 1300px;
   padding: 0 80px;
 }
+
 .benefit {
+  background: url(Vector\ 2.svg) no-repeat center;
+  background-size: 100%;
+  margin: 50px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.benefit div {
+  width: 70%;
   display: flex;
   justify-content: space-around;
-  margin: 70px 260px;
 }
+
 .Featured-Product {
   font-weight: 600;
   font-size: 36px;
@@ -269,7 +280,6 @@ nav {
 }
 .ad-butten:hover {
   cursor: pointer;
-  background: #9e3040;
   transform: scale(1.02);
 }
 .sec2 {
@@ -347,9 +357,9 @@ article {
 }
 .SHOW-MORE-btn:hover {
   cursor: pointer;
-  background: #fff;
-  color: #9e3040;
-  transform: scale(1.01);
+  background: #9e3040;
+  color: #fff;
+  transform: scale(1.06);
 }
 .Trending {
   font-weight: 600;
